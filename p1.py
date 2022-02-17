@@ -124,7 +124,46 @@ arr3=np.array(list3)
 # print(arr2.shape)
 # print(arr3.shape)
 
-print(arr1.reshape(3,4))
+# print(arr1.reshape(3,4))
+# print(arr2.reshape(12))
+# print(arr3.reshape(2,9))
+
+# print(arr2.reshape(-1)) 
+# To delete one Dimenstion -1
+
+
+#Iterable in Numpy 
+
+
+# for item in arr2:
+#     print(item)
+
+# list2=[[1,2,3,4],[4,5,6,5],[7,8,9,78]]
+# for row in arr2:
+#     for col in row:
+#         print(col,end='\t')
+#     print()
+
+
+#To join tow array together
+arr1=np.array([1,2,3,4,5])
+arr2=np.array([10,20,30,40,50])
+arr3=np.concatenate((arr1,arr2)) # must add one tuple to it 
+print(arr3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
