@@ -33,5 +33,6 @@ arr9=np.array(list3)
 # print(arr9)
 # print(100*'-')
 
-
-
+print(arr7.ndim)
+print(arr7.ndim)
+print(arr7.ndim)
