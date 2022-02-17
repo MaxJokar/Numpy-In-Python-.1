@@ -22,10 +22,10 @@ list2=[[1,2,3,4],[4,5,6,5],[7,8,9,78]]
 list3=[[[1,2,3],[7,8,9],[9,8,7]],[[1,2,3],[7,8,9],[9,8,7]]]
 
 # print(len(list1))
-arr7=np.array(list1)
-arr8=np.array(list2)
-arr9=np.array(list3)
-# print(100*'-')
+# arr7=np.array(list1)
+# arr8=np.array(list2)
+# arr9=np.array(list3)
+# # print(100*'-')
 # print(arr7)
 # print(100*'-')
 # print(arr8)
@@ -36,4 +36,78 @@ arr9=np.array(list3)
 # print(arr7.ndim)
 # print(arr7.ndim)
 # print(arr7.ndim)
-print(arr7[3])
+# print(list1[3])
+# print(arr7[3])
+
+# find  index
+# print(list3[1][1][2])
+# print(arr9[1][1][2])
+
+
+# print(arr8[1,3])
+# print(arr9[1,2,2]) 
+# print(arr7[-6])
+
+
+
+#==============================================================
+list1=[12,23,22,23,2,45,5,6,5,4,8,565]
+list2=[[1,2,3,4],[4,5,6,5],[7,8,9,78]]
+list3=[[[1,2,3],[7,8,9],[9,8,7]],[[1,2,3],[7,8,9],[9,8,7]]]
+
+arr1=np.array(list1)
+arr2=np.array(list2)
+arr3=np.array(list3)
+
+print(arr1[1:5])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
