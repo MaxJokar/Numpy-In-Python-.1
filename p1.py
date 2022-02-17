@@ -25,8 +25,13 @@ list3=[[[1,2,3],[7,8,9],[9,8,7]],[[1,2,3],[7,8,9],[9,8,7]]]
 arr7=np.array(list1)
 arr8=np.array(list2)
 arr9=np.array(list3)
-print(arr7)
-print(arr8)
-print(arr9)
+# print(100*'-')
+# print(arr7)
+# print(100*'-')
+# print(arr8)
+# print(100*'-')
+# print(arr9)
+# print(100*'-')
+
 
 
