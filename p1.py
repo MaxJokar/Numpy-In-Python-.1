@@ -51,15 +51,64 @@ list3=[[[1,2,3],[7,8,9],[9,8,7]],[[1,2,3],[7,8,9],[9,8,7]]]
 
 
 #==============================================================
+# list1=[12,23,22,23,2,45,5,6,5,4,8,565]
+# list2=[[1,2,3,4],[4,5,6,5],[7,8,9,78]]
+# list3=[[[1,2,3],[7,8,9],[9,8,7]],[[1,2,3],[7,8,9],[9,8,7]]]
+
+# arr1=np.array(list1)
+# arr2=np.array(list2)
+# arr3=np.array(list3)
+#slice
+# print(arr1[1:5])
+# print(arr2[1,1:3])
+# print(arr2[:2,1:3])
+
+# print(arr3[0,1:,1:])
+
+ 
+
+#DataType
+
+
+
 list1=[12,23,22,23,2,45,5,6,5,4,8,565]
-list2=[[1,2,3,4],[4,5,6,5],[7,8,9,78]]
-list3=[[[1,2,3],[7,8,9],[9,8,7]],[[1,2,3],[7,8,9],[9,8,7]]]
+list4=[12.5,385.78,12.5]
+list2=['andy','George']
+list3=[True,False,True]
 
 arr1=np.array(list1)
 arr2=np.array(list2)
 arr3=np.array(list3)
+arr4=np.array(list4)
 
-print(arr1[1:5])
+# print(arr1.dtype)
+# print(arr2.dtype)
+# print(arr3.dtype)
+# print(arr4.dtype)
+# newArr1=arr1.astype('U5')
+#To change to  string  U5  is a string
+# print(newArr1)
+
+newArr4=arr4.astype('i')  
+#convert to  integer,('f)=float,b=boolean
+
+
+print(newArr4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
