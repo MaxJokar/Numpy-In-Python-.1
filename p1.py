@@ -120,9 +120,11 @@ arr3=np.array(list3)
 # print(arr1.ndim)
 # print(arr2.ndim)
 
-print(arr1.shape)
-print(arr2.shape)
-print(arr3.shape)
+# print(arr1.shape)
+# print(arr2.shape)
+# print(arr3.shape)
+
+print(arr1.reshape(3,4))
 
 
 
