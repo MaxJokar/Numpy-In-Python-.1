@@ -146,13 +146,27 @@ arr3=np.array(list3)
 
 
 #To join tow array together
-arr1=np.array([1,2,3,4,5])
-arr2=np.array([10,20,30,40,50])
-arr3=np.concatenate((arr1,arr2)) # must add one tuple to it 
-print(arr3)
+# arr1=np.array([1,2,3,4,5])
+# arr2=np.array([10,20,30,40,50])
+# arr3=np.concatenate((arr1,arr2)) # must add one tuple to it 
+# print(arr3)
 
 
+#To join Two dimenstion array
 
+
+# arr1=np.array([[1,2,3],[4,5,6]])
+# arr2=np.array([[13,25,3],[10,51,68]])
+# arr3=np.concatenate((arr1,arr2))
+
+
+# arr3=np.stack((arr1,arr2))
+# print(arr3)
+
+
+# arr3=np.concatenate((arr1,arr2),axis=1)
+# print(arr3)
+# print(arr3.shape)
 
 
 
