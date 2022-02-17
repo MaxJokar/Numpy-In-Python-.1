@@ -17,9 +17,9 @@ import numpy as np
 # arr4=np.array(list3)
 # print(arr4)
 
-list1=[12,23,22,23,2,45,5,6,5,4,8,565]
-list2=[[1,2,3,4],[4,5,6,5],[7,8,9,78]]
-list3=[[[1,2,3],[7,8,9],[9,8,7]],[[1,2,3],[7,8,9],[9,8,7]]]
+# list1=[12,23,22,23,2,45,5,6,5,4,8,565]
+# list2=[[1,2,3,4],[4,5,6,5],[7,8,9,78]]
+# list3=[[[1,2,3],[7,8,9],[9,8,7]],[[1,2,3],[7,8,9],[9,8,7]]]
 
 # print(len(list1))
 # arr7=np.array(list1)
@@ -71,15 +71,15 @@ list3=[[[1,2,3],[7,8,9],[9,8,7]],[[1,2,3],[7,8,9],[9,8,7]]]
 
 
 
-list1=[12,23,22,23,2,45,5,6,5,4,8,565]
-list4=[12.5,385.78,12.5]
-list2=['andy','George']
-list3=[True,False,True]
+# list1=[12,23,22,23,2,45,5,6,5,4,8,565]
+# list4=[12.5,385.78,12.5]
+# list2=['andy','George']
+# list3=[True,False,True]
 
-arr1=np.array(list1)
-arr2=np.array(list2)
-arr3=np.array(list3)
-arr4=np.array(list4)
+# arr1=np.array(list1)
+# arr2=np.array(list2)
+# arr3=np.array(list3)
+# arr4=np.array(list4)
 
 # print(arr1.dtype)
 # print(arr2.dtype)
@@ -89,11 +89,56 @@ arr4=np.array(list4)
 #To change to  string  U5  is a string
 # print(newArr1)
 
-newArr4=arr4.astype('i')  
+# newArr4=arr4.astype('i')  
 #convert to  integer,('f)=float,b=boolean
 
 
-print(newArr4)
+# print(newArr4)
+
+
+# arr1=np.array([12,5,4,45,58,9,8,7])
+# arry2=arr1.copy()
+# arr1[0]=55
+# print(arr1)
+# print(arry2)
+
+# arr1=np.array([12,5,4,45,58,9,8,7])
+# arry2=arr1.view()
+# arr1[0]=55
+# print(arr1)
+# print(arry2)
+
+
+
+list1=[12,23,22,23,2,45,5,6,5,4,8,565]
+list2=[[1,2,3,4],[4,5,6,5],[7,8,9,78]]
+list3=[[[1,2,3],[7,8,9],[9,8,7]],[[1,2,3],[7,8,9],[9,8,7]]]
+
+arr1=np.array(list1)
+arr2=np.array(list2)
+arr3=np.array(list3)
+# print(arr1.ndim)
+# print(arr2.ndim)
+
+print(arr1.shape)
+print(arr2.shape)
+print(arr3.shape)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
